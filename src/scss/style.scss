@@ -1,0 +1,33 @@
+// Main Menu
+.navbar {
+  .navlink {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+  }
+
+  .nav-item.active {
+    border-left: #444 3px solid;
+  }
+}
+
+// Showcase Carousel
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../img/childglasses.jpeg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../img/girlglasses.jpeg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../img/grandparents.jpeg");
+  background-size: cover;
+}
