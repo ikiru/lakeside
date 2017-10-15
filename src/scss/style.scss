@@ -28,6 +28,10 @@ body {
   background-color: $background-color;
   color: $font-dark;
 }
+img {
+  width: 100px;
+  height: auto;
+}
 
 // Main Menu
 #showcase {
@@ -36,6 +40,7 @@ body {
     color: $font-dark;
     text-shadow: 2px 2px 2px $secondary-color;
   }
+
   .navbar {
     .navlink {
       font-size: 14px;
@@ -80,6 +85,13 @@ body {
     h1,
     p {
       display: none;
+    }
+
+    #eyeglass {
+      img {
+        width: 75px;
+        height: auto;
+      }
     }
   }
 }

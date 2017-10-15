@@ -14,6 +14,10 @@ body {
   background-color: #eeeff5;
   color: #021628; }
 
+img {
+  width: 100px;
+  height: auto; }
+
 #showcase h1,
 #showcase p {
   color: #021628;
@@ -49,7 +53,10 @@ body {
 @media (max-width: 768px) {
   #showcase h1,
   #showcase p {
-    display: none; } }
+    display: none; }
+  #showcase #eyeglass img {
+    width: 75px;
+    height: auto; } }
 
 #services {
   background-color: #052e42;
