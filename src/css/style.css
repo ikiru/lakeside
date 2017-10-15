@@ -40,23 +40,36 @@ body {
     display: none; } }
 
 #services {
-  background-color: #1b5773;
+  background-color: #052e42;
   color: #eeeff5; }
   #services .card {
-    width: 20rem; }
+    width: 20rem;
+    color: #1b5773;
+    margin: 0 auto;
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 #eyeglass {
-  color: #021628; }
+  background-color: #1b5773;
+  color: #eeeff5; }
+  #eyeglass h2 {
+    margin-top: 20px; }
   #eyeglass img {
-    width: 200px;
+    width: 150px;
     height: auto; }
 
 #insurance {
   background-color: #418aa6;
   color: #eeeff5; }
+  #insurance h2 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
   #insurance img {
     width: 100px;
-    height: auto; }
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 20px; }
 
 #footer p {
   margin: 0px; }
