@@ -1,3 +1,6 @@
+// imports
+@import url("https://fonts.googleapis.com/css?family=Rubik|Roboto");
+
 // Variables
 $primary-color: #1b5773;
 $secondary-color: #418aa6;
@@ -5,8 +8,22 @@ $third-color: #052e42;
 $background-color: #eeeff5;
 $font-color: #eeeff5;
 $font-dark: #021628;
+$text-font: "Roboto";
+$headline-font: "Rubik";
 
 // Main Tags
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: $headline-font;
+}
+
+p,
+a {
+  font-family: $text-font;
+}
 body {
   background-color: $background-color;
   color: $font-dark;
