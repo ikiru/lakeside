@@ -16,7 +16,7 @@ body {
   h1,
   p {
     color: $font-dark;
-    text-shadow: 2px 2px 2px 2px $secondary-color;
+    text-shadow: 2px 2px 2px $secondary-color;
   }
   .navbar {
     .navlink {
@@ -32,12 +32,17 @@ body {
   }
 
   // Showcase Carousel
+  .carousel-inner {
+    p {
+      margin-bottom: 175px;
+    }
+  }
   .carousel-item {
     height: 450px;
   }
 
   .carousel-image-1 {
-    background: url("../img/childglasses.jpeg");
+    background: url("../img/childglasses.jpg");
     background-size: cover;
   }
 
@@ -52,10 +57,31 @@ body {
   }
 }
 
-// eye glasses
-#eyeglass {
+@media (max-width: 768px) {
+  #showcase {
+    h1,
+    p {
+      display: none;
+    }
+  }
+}
+
+// Services
+#services {
   background-color: $primary-color;
   color: $font-color;
+  .card {
+    width: 20rem;
+  }
+}
+
+// eye glasses
+#eyeglass {
+  color: $font-dark;
+  img {
+    width: 200px;
+    height: auto;
+  }
 }
 
 // Insurance
@@ -63,6 +89,10 @@ body {
 #insurance {
   background-color: $secondary-color;
   color: $font-color;
+  img {
+    width: 100px;
+    height: auto;
+  }
 }
 
 // footer section

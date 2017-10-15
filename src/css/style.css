@@ -5,7 +5,7 @@ body {
 #showcase h1,
 #showcase p {
   color: #021628;
-  text-shadow: 2px 2px 2px 2px #418aa6; }
+  text-shadow: 2px 2px 2px #418aa6; }
 
 #showcase .navbar .navlink {
   font-size: 14px;
@@ -16,11 +16,14 @@ body {
 #showcase .navbar .nav-item.active {
   border-left: #444 3px solid; }
 
+#showcase .carousel-inner p {
+  margin-bottom: 175px; }
+
 #showcase .carousel-item {
   height: 450px; }
 
 #showcase .carousel-image-1 {
-  background: url("../img/childglasses.jpeg");
+  background: url("../img/childglasses.jpg");
   background-size: cover; }
 
 #showcase .carousel-image-2 {
@@ -31,13 +34,29 @@ body {
   background: url("../img/grandparents.jpeg");
   background-size: cover; }
 
-#eyeglass {
+@media (max-width: 768px) {
+  #showcase h1,
+  #showcase p {
+    display: none; } }
+
+#services {
   background-color: #1b5773;
   color: #eeeff5; }
+  #services .card {
+    width: 20rem; }
+
+#eyeglass {
+  color: #021628; }
+  #eyeglass img {
+    width: 200px;
+    height: auto; }
 
 #insurance {
   background-color: #418aa6;
   color: #eeeff5; }
+  #insurance img {
+    width: 100px;
+    height: auto; }
 
 #footer p {
   margin: 0px; }
